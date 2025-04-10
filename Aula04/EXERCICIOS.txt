@@ -1,0 +1,8 @@
+EXERCÍCIOS
+==========
+1) Utilizando o Playwright, construa um teste que
+verifique se cada operação matemática básica está
+funcionando corretamente.
+
+2) Refatore o teste para usar o evento beforeEach,
+   para executar o código que seja comum a todos os testes.
