@@ -1,0 +1,30 @@
+{
+    "name": "thiagodp/hello",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "start": "php src/index.php",
+        "test": "kahlan",
+        "dump": "composer dump-autoload"
+    },
+    "autoload": {
+        "psr-4": {
+            "": [ "src/", "src/documento/" ]
+        },
+        "files": [
+            "src/dividir.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Thiago Delgado Pinto",
+            "email": "thiago_dp@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "phputil/extenso": "^2.1"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^6.0"
+    }
+}

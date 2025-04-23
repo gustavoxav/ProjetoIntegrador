@@ -1,0 +1,13 @@
+{
+    "produtos": [
+        { "codigo": "123456", "ean13": "1234567890123",
+        "descricao": "Refrigerante 2 litros", "estoque": 50,
+        "preco": 7.00 },
+        { "codigo": "987654", "ean13": "9876543210123",
+        "descricao": "Água 2 litros", "estoque": 100,
+        "preco": 4.00 },
+        { "codigo": "888888", "ean13": "8888888888888",
+        "descricao": "Iogurte Desnatado 1L", "estoque": 20,
+        "preco": 15.00 }
+    ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV</title>
+    <script src="src/index.ts" type="module" defer ></script>
+</head>
+<body>
+    <h1>Venda</h1>
+    <label for="codigo">Código:</label>
+    <input type="text" id="codigo" />
+    <button id="adicionar">➕</button>
+    <div id="detalhes" ></div>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Descrição</th>
+                <th>Preço (R$)</th>
+                <th>Qtd.</th>
+                <th>Subtotal (R$)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div id="total"></div>
+    <button id="concluir">Concluir</button>
+</body>
+</html>

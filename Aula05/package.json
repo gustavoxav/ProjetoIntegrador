@@ -1,0 +1,22 @@
+{
+  "name": "aula05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run --dir test",
+    "e2e": "playwright test venda.spec.js",
+    "start": "vite",
+    "api": "json-server api.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "json-server": "1.0.0-beta.3",
+    "vite": "^6.2.6",
+    "vitest": "^3.1.1"
+  }
+}

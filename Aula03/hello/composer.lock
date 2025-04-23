@@ -1,0 +1,130 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4af0b9b61a2c3b84f659a796fdf026bc",
+    "packages": [
+        {
+            "name": "phputil/extenso",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagodp/extenso.git",
+                "reference": "bb84d4145df3cc160937480e0049f27c951a9ffe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagodp/extenso/zipball/bb84d4145df3cc160937480e0049f27c951a9ffe",
+                "reference": "bb84d4145df3cc160937480e0049f27c951a9ffe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/funcoes.php"
+                ],
+                "psr-4": {
+                    "phputil\\extenso\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Delgado Pinto"
+                }
+            ],
+            "description": "Conversão de valores por extenso PHP",
+            "homepage": "http://github.com/thiagodp/extenso",
+            "keywords": [
+                "extenso",
+                "valor",
+                "valores"
+            ],
+            "support": {
+                "issues": "https://github.com/thiagodp/extenso/issues",
+                "source": "https://github.com/thiagodp/extenso"
+            },
+            "time": "2024-04-02T19:58:54+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "kahlan/kahlan",
+            "version": "6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kahlan/kahlan.git",
+                "reference": "2cb353e5faa505328bef00abcc1eb5f82790ff20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/2cb353e5faa505328bef00abcc1eb5f82790ff20",
+                "reference": "2cb353e5faa505328bef00abcc1eb5f82790ff20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "rector/rector": "^2.0",
+                "squizlabs/php_codesniffer": "^3.10.1"
+            },
+            "bin": [
+                "bin/kahlan"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Kahlan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CrysaLEAD"
+                }
+            ],
+            "description": "The PHP Test Framework for Freedom, Truth and Justice.",
+            "keywords": [
+                "BDD",
+                "Behavior-Driven Development",
+                "Monkey Patching",
+                "TDD",
+                "mock",
+                "stub",
+                "testing",
+                "unit test"
+            ],
+            "support": {
+                "issues": "https://github.com/kahlan/kahlan/issues",
+                "source": "https://github.com/kahlan/kahlan/tree/6.0.2"
+            },
+            "time": "2025-02-22T16:04:53+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
