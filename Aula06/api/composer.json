@@ -1,0 +1,17 @@
+{
+    "name": "thiag/api",
+    "autoload": {
+        "psr-4": {
+            "": [ "src/pais" ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Delgado Pinto",
+            "email": "thiago_dp@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "phputil/router": "^0.3.3"
+    }
+}
